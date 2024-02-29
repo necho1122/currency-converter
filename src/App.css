@@ -1,0 +1,159 @@
+#root
+{
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+*,
+*::before,
+*::after
+{
+  box-sizing: border-box;
+}
+
+.logo
+{
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover
+{
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover
+{
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin
+{
+  from
+  {
+    transform: rotate(0deg);
+  }
+
+  to
+  {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference)
+{
+  a:nth-of-type(2) .logo
+  {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card
+{
+  padding: 2em;
+}
+
+.read-the-docs
+{
+  color: #888;
+}
+
+.currency
+{
+  border-radius: 15px;
+  width: 300px;
+  height: 80px;
+  margin: 5px 20px;
+  background-color: #362E47;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.conversion-icon
+{
+  margin: 10px;
+
+}
+
+.converter-container
+{
+  background-color: #26272C;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  border-radius: 15px;
+}
+
+select,
+option
+{
+  appearance: none;
+  border: none;
+  padding: 2px;
+  font-weight: bold;
+}
+
+select
+{
+  border: 2px solid transparent;
+  border-radius: 5px;
+  color: #cfcbcb;
+  font-size: 16px;
+  padding: 5px;
+}
+
+option
+{
+  background-color: #f8f8f8;
+  color: #524f4f;
+  font-size: 16px;
+}
+
+select:hover,
+select:focus
+{
+  border-color: #666;
+}
+
+option:hover
+{
+  background-color: #ccc;
+}
+
+input
+{
+  border: none;
+  outline: none;
+}
+
+input
+{
+  border-radius: 5px;
+  padding: 0.5rem;
+  font-size: 16px;
+  color: #CFCBCB;
+  background-color: #3B3B3B;
+  font-weight: bold;
+}
+
+input:hover,
+input:focus
+{
+  border-color: #666;
+}
+
+input:disabled
+{
+  opacity: 0.5;
+}
+
+.conversion-icon img {
+  width: 50px;
+  height: 50px;
+}
