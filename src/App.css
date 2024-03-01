@@ -4,6 +4,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+
 }
 
 *,
@@ -106,6 +107,7 @@ select
   color: #cfcbcb;
   font-size: 16px;
   padding: 5px;
+  background-color: #3B3B3B;
 }
 
 option
@@ -153,7 +155,28 @@ input:disabled
   opacity: 0.5;
 }
 
-.conversion-icon img {
+.conversion-icon img
+{
   width: 50px;
   height: 50px;
+}
+
+span
+{
+  color: #E3E3E4;
+}
+
+.options-container
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+}
+
+.currency-icon
+{
+  margin: 0px 5px;
 }

@@ -85,14 +85,22 @@ function App() {
 		<>
 			<div className="converter-container">
 				<h2>Currency converter</h2>
-				<span>From: </span>
-				<select onChange={handleFromCurrencyChange} value={fromCurrency}>
-					{currencyOptions.map((option) => (
-						<option key={option} value={option}>
-							{option}
-						</option>
-					))}
-				</select>
+				<div className="options-container">
+					<span>From: </span>
+					<span className="currency-icon">
+						<img
+							src={`https://raw.githubusercontent.com/spothq/cryptocurrency-icons/1a63530be6e374711a8554f31b17e4cb92c25fa5/svg/icon/${fromCurrency.toLocaleLowerCase()}.svg`}
+							alt="currency icon"
+						/>
+					</span>{" "}
+					<select onChange={handleFromCurrencyChange} value={fromCurrency}>
+						{currencyOptions.map((option) => (
+							<option key={option} value={option}>
+								{option}
+							</option>
+						))}
+					</select>
+				</div>
 				<div className="currency">
 					<input
 						type="number"
@@ -103,14 +111,22 @@ function App() {
 				<div className="conversion-icon">
 					<img src={exchangeIcon} alt="exchange icon" />
 				</div>
-				<span>To: </span>
-				<select onChange={handleToCurrencyChange} value={toCurrency}>
-					{currencyOptions.map((option) => (
-						<option key={option} value={option}>
-							{option}
-						</option>
-					))}
-				</select>
+				<div className="options-container">
+					<span>To: </span>
+					<span className="currency-icon">
+						<img
+							src={`https://raw.githubusercontent.com/spothq/cryptocurrency-icons/1a63530be6e374711a8554f31b17e4cb92c25fa5/svg/icon/${toCurrency.toLocaleLowerCase()}.svg`}
+							alt="currency icon"
+						/>
+					</span>{" "}
+					<select onChange={handleToCurrencyChange} value={toCurrency}>
+						{currencyOptions.map((option) => (
+							<option key={option} value={option}>
+								{option}
+							</option>
+						))}
+					</select>
+				</div>
 				<div className="currency">
 					<input type="number" value={toValue} onChange={handleToValueChange} />
 				</div>
