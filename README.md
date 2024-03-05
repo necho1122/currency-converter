@@ -10,10 +10,10 @@ This project is a robust currency converter application developed using React an
 
 * **User-friendly Interface:** The application provides a simple and intuitive interface for easy currency conversion.
 
-* **Notes:** this aplication is designed to be used with the free version of the API, which has a limit of 300 requests per month. If you want to use it more frequently, you can sign up for a premium plan. I used the free version of the API for this project, due to thad I used a json file with the latest conversion rates. You can use de API with my API_KEY from the link below: 
+* **Notes:** this aplication is designed to be used with the free version of the API, which has a limit of 300 requests per month. If you want to use it more frequently, you can sign up for a premium plan. I used the free version of the API for this project, due to thad I used a json file with the latest conversion rates. You can get your  API_KEY from: 
 
 ```http
-https://api.currencyapi.com/v3/latest?apikey=cur_live_rhyyKYobLkanUGI6wTIpI9IwPD2o8rLWWbc9vpbO
+https://currencyapi.com/
 ```
 
 ##Technologies Used
@@ -26,9 +26,9 @@ https://api.currencyapi.com/v3/latest?apikey=cur_live_rhyyKYobLkanUGI6wTIpI9IwPD
 
 ##Images
 
-![Currency Converter](https://lh3.googleusercontent.com/pw/AP1GczO4YsL8I34UWgertdtE_iLzX2_xSZjfxoExiVL28ckLHYhSz8faiKt6RmoQbFzl84R5EuAmdrsWp2MnDeVJ41qlcMwIc7bJJcp_ZkIXDOWTTDvjLAsnUadGPLdfgVpZemCtgScln_pfQ1uqELupXIY=w492-h615-s-no-gm?authuser=0)
+![Currency Converter](https://live.staticflickr.com/65535/53569413238_57fa1db4eb.jpg)
 
-![Currency Converter](https://lh3.googleusercontent.com/pw/AP1GczMrqCsE1snhbtgjAmg_XaniHdKcQ9vIQitf_ekc65vsV6fewRO2DB6rQSv7uEmiC6NYJZmUea3A04pZ5FW9W5pZIT5HzXPuRpy7x6RnbcTzlGookV7_-I_DyKWttXpt6DwhYC-VFTdYEEbn_FoRKmTeemSvYuyw5FZRuDfUipxnaNLh6U7gwRk3If8zLPzK7009AOi8rOuT8qPiSmVZLyqU5HWGuBDsTtk4zToZHdZKKJ07qn2wLPmEB1cThO-npvH1HIwuFvVuiAMDpcz7gtnHPcXmPNifrkDk9Txq5VWSrUIXprBjrjJ7Ydp0OFkUDIn9HE3M5H1Je1_vcNe8fHG2l0CNw_hcCC4f92rA2uv9BRwgp8fxy1w2tgaY-OUM05rEFju0L3tFCz9kUeekNRZ9EcTYbJwjjrabk_jE6jq-nT2rjC1Nxl3FQkZfmHlxJv0gJBxRWgVe7VonPWmWMoq0CLDHra0G8Sk59HNvxwEk3w32HphNqpMlz-rwrbxBpH4Ru6OxDAaNLNQ4YK00HWWrIYP-fYvZSXi5JjiCoFwNE174DhmfUZaGEsvCdMXQQbRmI6y40o1Oh4mRPQOJpjeK4O03lZn4yq6WTDc7pPQu4_kloD7-Bv9Bq_ylyMOXlaKzPQ37YKcy3al8bLNiJ2mk3FRqJN4i4jUjyS7RGlJVo3JTiK2ex4MaoUsKkLPnzP0xaTGF9CR92JFy7XPaC4rXPufCZUtz4tbGSMDgblK6x84A4uxafmAK4NZt12reSYVz-7puOuDDsoygHfJxf2QNxY88zl_JKo_Cy8604ixcdryigjYFYkmGX7IEhVXQ4pbjBxZggduiIWrikmfTGBq-sYxa_wau-rMydmKxc09RFZrf19UQMcFDec-G9iJagN4cTRpJqUpqgqLF6HhgAGEDzM8BH2mAJe-kkJtjk5jEE1w3Ni_-ObTHlX02QcV2JrlmSjFsGmdV8IxgV6tUeGALAl-k=w492-h615-s-no-gm?authuser=1)
+![Currency Converter](https://live.staticflickr.com/65535/53569413233_c412bc2cb6.jpg)
 
 ##Installation
 
@@ -37,7 +37,7 @@ To run this project, you need to have Node.js and npm installed on your machine.
 1. Clone the repository:
   
   ```bash
-git clone https://github.com/necho1122/currency-converter.git
+https://github.com/necho1122/currency-converter.git
 ```
 
 2. Navigate into the project directory:
@@ -58,21 +58,22 @@ npm install
 npm start
 ```
 
-The application will be available at http://localhost:3000.
+The application will be available at http://localhost:3000 or your default port.
 
 ##Usage
 
 Select the type of currency you want to convert from and to. Enter the amount you want to convert, and the application will display the converted amount based on the latest conversion rates.
 
-##Contact
+## Contact
 
-If you want to contact me you can reach me at:
+If you have any questions or feedback, please contact Nelson Ubac at [nelsonubac90@gmail.com]
 
-* Email: nelsonubac90@gmail.com
-* github: https://github.com/necho1122
-* twitter: @nelsonubac
-* linkedin: https://www.linkedin.com/in/nelson-enrique-ubac-jimenez-6b1996118/
-* whatsApp: +55(95)981156815
+[![Icono de LinkedIn](https://img.icons8.com/ios/100/linkedin.png)](https://www.linkedin.com/in/nelson-enrique-ubac-jimenez-6b1996118/)
+[![Icono de Twitter](https://img.icons8.com/ios/100/twitter.png)](https://twitter.com/necho1122)
+[![Icono de Facebook](https://img.icons8.com/ios/100/facebook.png)](https://www.facebook.com/nelson.ubac)
+[![Icono de Whatsapp](https://img.icons8.com/ios/100/whatsapp.png)](https://wa.me/5554981156815)
+[![Icono de Telegram](https://img.icons8.com/ios/100/telegram.png)](https://t.me/necho1122)
+[![Icono de instagram](https://img.icons8.com/ios/100/instagram.png)](https://www.instagram.com/nelsonubac/)
 
 
 ##Contributing
